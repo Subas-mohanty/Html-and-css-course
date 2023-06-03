@@ -1,0 +1,14 @@
+body{
+    background-color: slategrey;
+}
+h1{
+    color: blue;
+    background-color: slateblue;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-style: italic;
+}

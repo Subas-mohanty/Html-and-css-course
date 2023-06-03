@@ -1,0 +1,7 @@
+a{
+    margin-left: 250px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

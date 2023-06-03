@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>subas's website</title>
+        <body>
+            <h1>Web forms</h1>
+            <form>
+                <label for="username">enter username:</label>
+                <!-- the placeholder attribute works like the hint option in android studio -->
+                <!-- the required tag ensures that this thing is mandatory -->
+                <input type="text" id="username" name="username" placeholder="username" required>
+                <br/><br>
+                <label for="email">enter email:</label>
+                <input type="email" id="email" name="email id" placeholder="your email" required>
+                <br><br>
+                <label for="password">password</label>
+                <input type="password" id="password" name="password" placeholder="choose a password" required>
+                <br><br>  <!-- this is for new line -->
+
+                <p>select your gender:</p>
+                <!-- the name attribute should be same for everyone, so that we can't select more than one item at once -->
+                <input type="radio" name="gender" value="male" id="male">    
+                <label for="male">male</label>
+                <input type="radio" name="gender" value="male" id="female">
+                <label for="female">female</label>
+                <input type="radio" name="gender" value="male" id="other">
+                <label for="other">other</label>
+                <br><br>
+
+
+                
+                <label for="question">security question:</label>
+                <!-- select is for dropdown menu and options are for options-->
+                <select name="question" id="question">
+                    <option value="q1">what is your favourite colour ?</option>
+                    <option value="q2">what is the name of your bestfriend ?</option>
+                    <option value="q3">your relationship status ?</option>
+                </select>
+                <br><br>
+                <label for="answer"></label>
+                <input type="text" name="answer" id="answer">
+                <br><br>
+
+                <label for="bio">your bio:</label>
+                <br>
+                <textarea name="bio" id="bio" cols="30" rows="10" placeholder="about you..."></textarea>
+                <br><br>
+
+                <label for="color">choose your favourite color :</label>
+                <input type="color" name="fav color" id="color"> <br><br>
+
+                <!-- for date -->
+                <label for="birthday">select your date of birth:</label>
+                <input type="date" id="birthday" name="birthday"> <br><br>
+
+                <input type="submit" value="submit the form">
+                <input type="reset">
+            </form>
+        </body>
+    </head>
+</html>
